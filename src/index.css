@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .primary-btn {
+        @apply h-10 md:h-12 bg-green-600 text-gray-100 text-sm px-5
+     rounded-full border border-y-primary hover:bg-transparent hover:text-primary}
+}
+
